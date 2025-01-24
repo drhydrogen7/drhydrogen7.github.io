@@ -268,7 +268,7 @@ $(document).ready(function() {
                 try {
                     await player.load(config.manifestUri);
                     // Mute the video to allow autoplay
-                    video.muted = false;
+                    video.muted = true;
                     await video.play(); // Attempt to autoplay
                 } catch (error) {
                     console.error('Error loading manifest or autoplay failed:', error);
