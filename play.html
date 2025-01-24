@@ -90,10 +90,11 @@ $(document).ready(function() {
       <video autoplay data-shaka-player id='video' poster="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7i9uhGGO0LQK7xCCYGB0W3Uupv0n2h4gAGF1DQiNRA8inkQITxofeqhSycxgxbyQp5Wvg86XmwWTjw4r50KcK91JLb_1JqdyApEnxBsj6QmRyLrd5cXE7KsLGf9aWsukvmzW_nruJAoPs0CagZTSJcPAwOzal2Wc4f-KT9y1gAqJtf3qA0YE75JiAYpzi/s1024/DALL%C2%B7E%202025-01-24%2017.41.04%20-%20A%20sleek%20and%20modern%20poster%20design%20for%20%27myhackstuff.com%27%20with%20a%20soccer_football%20theme.%20The%20design%20features%20a%20dynamic%20football%20graphic,%20like%20a%20ball%20in%20mo.webp" style='width:100%;height:100%;'>
 
 </video>
-	    <div id="overlay-text" style="
+	     <div id="overlay-text" style="
       position: absolute;
-      top: 10px;
-      center: 10px;
+      top: 10px; /* Adjust to fine-tune vertical placement */
+      left: 50%;
+      transform: translateX(-50%);
       background: rgba(0, 0, 0, 0.6);
       color: white;
       padding: 5px 10px;
