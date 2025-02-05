@@ -37,7 +37,7 @@ function getStreamServer()
 {
     toaster("Fetching Servers ...");
     $.ajax({
-        "url": "https://api.shihabtv.xyz/dlhd/new/service.php",
+        "url": "https:\/\/api.shihabtv.xyz\/dlhd\/new\/service.php",
         "type": "POST",
         "data": "action=get_detail_fidserver&id=" + TV_ID + "&server=1",
         "success": function(data)
